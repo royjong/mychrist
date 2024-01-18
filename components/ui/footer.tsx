@@ -11,7 +11,9 @@ export default function Footer() {
           {/* 1st block */}
           <div className="sm:col-span-12 lg:col-span-3">
             <div className="mb-2">
-              <Logo />
+            <div className="shrink-0 mr-4">
+              <img src="https://i.postimg.cc/HxBn7kpD/my-300-x-100-px-1.png" className="w-[180px]"></img>
+          </div>
             </div>
             <div className="text-sm text-gray-600">
               <a href="#0" className="text-gray-600 hover:text-gray-900 hover:underline transition duration-150 ease-in-out">Terms</a> · <a href="#0" className="text-gray-600 hover:text-gray-900 hover:underline transition duration-150 ease-in-out">Privacy Policy</a>
@@ -139,7 +141,7 @@ export default function Footer() {
           </ul>
 
           {/* Copyrights note */}
-          <div className="text-sm text-gray-600 mr-4">&copy; Cruip.com. All rights reserved.</div>
+          <div className="text-sm text-gray-600 mr-4">&copy; AventuraMedia B.V - All rights reserved.</div>
 
         </div>
 
